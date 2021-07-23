@@ -1,0 +1,30 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:830664761523:function:ask-afe-hackathon-default-default-1627000281359",
+                "lastModified": "2021-07-23T01:51:19.298+0000",
+                "revisionId": "d6f16136-923c-44d7-b18f-8af9b460f637"
+              },
+              "iamRole": "arn:aws:iam::830664761523:role/ask-lambda-afe-hackathon-1627000273882"
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.cec6ddd5-2e3a-4da1-8590-b6904a2d13dc",
+      "skillMetadata": {
+        "lastDeployHash": "uOzZfYRruavXYtpiEWQ/gm5GpP0="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "p8YDV3jsi91h/DWX6raRaP6qLXk="
+        }
+      }
+    }
+  }
+}
