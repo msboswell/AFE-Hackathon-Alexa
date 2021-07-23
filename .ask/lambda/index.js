@@ -39,10 +39,11 @@ const MovePlayerIntentHandler = {
         const {units: unitsSlot, direction: directionSlot} = intent.slots;
         const units = unitsSlot.value;
         const direction = directionSlot.resolutions.resolutionsPerAuthority[0].values[0].value.id;
+        // TODO error check above
 
         movePlayer(units, direction);
 
-        const speakOutput = `Moving: ${units}, ${direction}`;
+      const speakOutput = `Moving: ${units}, ${direction}`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)

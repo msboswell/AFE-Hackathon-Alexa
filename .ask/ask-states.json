@@ -8,8 +8,8 @@
             "default": {
               "lambda": {
                 "arn": "arn:aws:lambda:us-east-1:830664761523:function:ask-afe-hackathon-default-default-1627000281359",
-                "lastModified": "2021-07-23T01:51:19.298+0000",
-                "revisionId": "d6f16136-923c-44d7-b18f-8af9b460f637"
+                "lastModified": "2021-07-23T02:42:27.758+0000",
+                "revisionId": "89b0a66f-28a8-4ff1-996a-47fd857a1dd2"
               },
               "iamRole": "arn:aws:iam::830664761523:role/ask-lambda-afe-hackathon-1627000273882"
             }
@@ -22,7 +22,7 @@
       },
       "code": {
         "default": {
-          "lastDeployHash": "p8YDV3jsi91h/DWX6raRaP6qLXk="
+          "lastDeployHash": "rDnPItiSsCeT3vd6phYyYq3kJ3U="
         }
       }
     }
